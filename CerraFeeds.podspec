@@ -21,7 +21,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "Suyesh Kandpal" => "suyesh.kandpal@stu.upes.ac.in" }
   #spec.source       = { :path => '.' } //local
 
-  #spec.source       = { :git => "https://github.com/suyeshkandpal28/CerraFeeds.git", :tag => "1.0.0" }
+  spec.source       = { :git => "https://github.com/suyeshkandpal28/CerraFeeds.git", :tag => "1.0.0" }
   spec.source_files  = "CerraFeeds"
   spec.exclude_files = "Classes/Exclude"
   spec.swift_version = "5.0"
